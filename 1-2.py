@@ -16,6 +16,8 @@ def isPermutation(str1, str2):
 response = "Yes, they are permutations" if isPermutation("cba", "cba") else "No, they are not permutations"
 print(response)
 
+# Time Complexity: O(logN)
+
 # Creates dictionary
 def dictionary(str):
   dict = {}
@@ -46,3 +48,5 @@ def isPermutation2(str1, str2):
     
 response2 = "Yes, they are permutations" if isPermutation2("cca", "bcc") else "No, they are not permutations"
 print(response2)
+
+# Time Complexity: O(N)

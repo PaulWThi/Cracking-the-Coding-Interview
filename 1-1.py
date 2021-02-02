@@ -13,3 +13,5 @@ def isUnique(str):
   
 unique = "String is unique" if isUnique("abc") else "String is not unique"
 print(unique)
+
+# Time Complexity: O(N)
